@@ -1,59 +1,71 @@
-## Introduction
+Use `blink` to turn an LED on and off. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Blink an LED:  
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: python
+filename: mood-check-in.py
+line_numbers: false
 ---
-### Hardware
+led.blink() # on for 1 second then off for one second
+print("Blinking") # Runs immediately
 
-+ A computer or tablet capable of running Scratch 3
+sleep(6)
+led.off()
+--- /code ---
 
-### Software
+Blink a fixed number of times:
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will learn
+language: python
+filename: mood-check-in.py
+line_numbers: false
 ---
+led.blink(on_time=1, off_time=0.5, n=3, wait=True)
+print("Finished blinking") # Runs after 3 on/off blinks
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+--- /code ---
 
---- /collapse ---
+**Tip:** If you don't set off_time then it will be the same as on_time. 
 
---- collapse ---
+Use `pulse` to gradually change the brightness of an LED:
+
+--- code ---
 ---
-title: Additional information for educators
+language: python
+filename: mood-check-in.py
+line_numbers: false
 ---
+led.pulse() # take 1 second to brighten and 1 second to dim
+print("Pulsing") # Runs immediately
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+--- /code ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+Control the pulse speed and number of repeats:
 
---- /collapse ---
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+---
+led.pulse(fade_in_time=2, fade_out_time=1, n=4, wait=True) # take 2 seconds to brighten and 1 second to dim
+print("Finished pulsing") # Runs after 4 pulses
+
+--- /code ---
+
+You can also combine on and off times and fade in out out times to create fancy effects:
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+---
+led.blink(on_time=1, off_time=1, fade_in_time=1, fade_out_time=1) # On for 1 second, off for 1 second, fade between
+print("Fancy") # Runs immediately 
+--- /code ---
+
+**Tip:** `blink` and `pulse` will run until `off` is called or `blink` or `pulse` are called with new settings. Use `wait=True` and set `n` to blink or pulse a fixed number of times. 
