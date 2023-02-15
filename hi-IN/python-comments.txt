@@ -1,0 +1,13 @@
+on for 1 second then off for one second
+
+Runs immediately
+
+Runs after 3 on/off blinks
+
+take 1 second to brighten and 1 second to dim
+
+take 2 seconds to brighten and 1 second to dim
+
+Runs after 4 pulses
+
+On for 1 second, off for 1 second, fade between
