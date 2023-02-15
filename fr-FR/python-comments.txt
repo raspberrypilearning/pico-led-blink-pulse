@@ -1,13 +1,13 @@
-on for 1 second then off for one second
+Allumé pendant 1 seconde puis éteint pendant une seconde
 
-Runs immediately
+S'exécute immédiatement
 
-Runs after 3 on/off blinks
+Fonctionne après 3 clignotements marche/arrêt
 
 take 1 second to brighten and 1 second to dim
 
 take 2 seconds to brighten and 1 second to dim
 
-Runs after 4 pulses
+Fonctionne après 4 impulsions
 
-On for 1 second, off for 1 second, fade between
+Allumé pendant 1 seconde, éteint pendant 1 seconde, fondu entre
