@@ -1,9 +1,9 @@
-Blinking
+Clignotante
 
-Finished blinking
+Clignotement terminé
 
-Pulsing
+Pulsation
 
-Finished pulsing
+Pulsation finie
 
-Fancy
+Fantaisiste
