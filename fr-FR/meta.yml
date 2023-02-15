@@ -1,10 +1,10 @@
-title: Blink or pulse on LED
+title: Clignotement ou impulsion sur LED
 hero_image: images/banner.png
-description: Make an LED blink or pulse.
+description: Faire clignoter ou pulser une LED.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-08"
 steps:
   - 
-    title: Make an LED blink or pulse
+    title: Faire clignoter ou pulser une LED
