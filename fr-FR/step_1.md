@@ -1,17 +1,17 @@
-Use `blink` to turn an LED on and off.
+Utilisez `blink` pour allumer et éteindre une LED.
 
-Blink an LED:
+Faire clignoter une LED :
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-led.blink() # on for 1 second then off for one second print("Blinking") # Runs immediately
+led.blink() # allumé pendant 1 seconde puis éteint pendant une seconde print("Clignotant") # S'exécute immédiatement
 
 sleep(6) led.off() --- /code ---
 
-Blink a fixed number of times:
+Clignote un nombre fixe de fois :
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ led.blink(on_time=1, off_time=0.5, n=3, wait=True) print("Finished blinking") # 
 
 --- /code ---
 
-**Tip:** If you don't set off_time then it will be the same as on_time.
+**Astuce :** Si tu ne définis pas off_time, ce sera le même que pour on_time.
 
-Use `pulse` to gradually change the brightness of an LED:
+Utilise `pulse` pour modifier progressivement la luminosité d'une LED :
 
 --- code ---
 ---
@@ -35,7 +35,7 @@ led.pulse() # take 1 second to brighten and 1 second to dim print("Pulsing") # R
 
 --- /code ---
 
-Control the pulse speed and number of repeats:
+Contrôle la vitesse d'impulsion et le nombre de répétitions :
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ led.pulse(fade_in_time=2, fade_out_time=1, n=4, wait=True) # take 2 seconds to b
 
 --- /code ---
 
-You can also combine on and off times and fade in out out times to create fancy effects:
+Tu peux également combiner des temps d'activation et de désactivation et des temps de fondu pour créer des effets fantaisistes :
 
 --- code ---
 ---
