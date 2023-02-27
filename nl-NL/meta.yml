@@ -1,10 +1,10 @@
-title: Blink or pulse on LED
+title: Knipperen of pulseren van een LED lampje
 hero_image: images/banner.png
-description: Make an LED blink or pulse.
+description: Laat een LED knipperen of pulseren.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-08"
 steps:
   - 
-    title: Make an LED blink or pulse
+    title: Laat een LED knipperen of pulseren
