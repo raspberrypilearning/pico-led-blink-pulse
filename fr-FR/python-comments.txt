@@ -1,0 +1,13 @@
+Allumé pendant 1 seconde puis éteint pendant une seconde
+
+S'exécute immédiatement
+
+Fonctionne après 3 clignotements marche/arrêt
+
+Prendre 1 seconde pour éclaircir et 1 seconde pour assombrir
+
+Prendre 2 secondes pour éclaircir et 1 seconde pour atténuer
+
+Fonctionne après 4 impulsions
+
+Allumé pendant 1 seconde, éteint pendant 1 seconde, fondu entre

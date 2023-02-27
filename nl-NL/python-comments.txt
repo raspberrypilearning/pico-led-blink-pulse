@@ -1,0 +1,13 @@
+1 seconde aan en dan 1 seconde uit
+
+Taak onmiddellijk uitvoeren
+
+Voert taak uit na 3 keer aan/uit knipperen
+
+neem 1 seconde om op te lichten en 1 seconde om te dimmen
+
+neem 2 seconden om op te lichten en 1 seconde om te dimmen
+
+Voert taak out na 4 pulsen
+
+1 seconde aan, 1 seconde uit, en er tussenin vervagen

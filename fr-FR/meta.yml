@@ -1,0 +1,10 @@
+---
+title: Clignotement ou impulsion sur LED
+hero_image: images/banner.png
+description: Faire clignoter ou pulser une LED.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-08"
+steps:
+  - title: Faire clignoter ou pulser une LED
