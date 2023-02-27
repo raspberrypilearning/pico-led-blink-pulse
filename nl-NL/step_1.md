@@ -1,17 +1,17 @@
-Use `blink` to turn an LED on and off.
+Gebruik `blink` (knipperen) om een LED aan en uit te zetten.
 
-Blink an LED:
+Een LED laten knipperen:
 
 --- code ---
 ---
 language: python
 line_numbers: false
 ---
-led.blink() # on for 1 second then off for one second print("Blinking") # Runs immediately
+led.blink() # 1 seconde aan en dan 1 seconde uit print("Knipperen") # Taak wordt onmiddelijk uitgevoerd
 
 sleep(6) led.off() --- /code ---
 
-Blink a fixed number of times:
+Een vast aantal keren knipperen:
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ led.blink(on_time=1, off_time=0.5, n=3, wait=True) print("Finished blinking") # 
 
 --- /code ---
 
-**Tip:** If you don't set off_time then it will be the same as on_time.
+**Tip:** Als je geen aparte off_time hebt ingesteld zal deze hetzelfde zijn als on_time.
 
-Use `pulse` to gradually change the brightness of an LED:
+Gebruik `pulse` om geleidelijk de helderheid van een LED te veranderen:
 
 --- code ---
 ---
@@ -35,7 +35,7 @@ led.pulse() # take 1 second to brighten and 1 second to dim print("Pulsing") # R
 
 --- /code ---
 
-Control the pulse speed and number of repeats:
+De pulssnelheid en aantal herhalingen controleren:
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ led.pulse(fade_in_time=2, fade_out_time=1, n=4, wait=True) # take 2 seconds to b
 
 --- /code ---
 
-You can also combine on and off times and fade in out out times to create fancy effects:
+Je kunt ook aan- en uittijden en vervaagtijden combineren om fraaie effecten te maken:
 
 --- code ---
 ---
@@ -55,4 +55,4 @@ line_numbers: false
 ---
 led.blink(on_time=1, off_time=1, fade_in_time=1, fade_out_time=1) # On for 1 second, off for 1 second, fade between print("Fancy") # Runs immediately --- /code ---
 
-**Tip:** `blink` and `pulse` will run until `off` is called or `blink` or `pulse` are called with new settings. Use `wait=True` and set `n` to blink or pulse a fixed number of times. 
+**Tip:** `blink` en `pulse` tot `off` wordt aangeroepen of tot `blink` of `pulse` worden aangeroepen met nieuwe instellingen. Gebruik `wait=True` en stel `n` in om een vast aantal keren te knipperen of te pulseren. 
