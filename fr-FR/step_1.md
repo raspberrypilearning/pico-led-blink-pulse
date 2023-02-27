@@ -55,4 +55,4 @@ line_numbers: false
 ---
 led.blink(on_time=1, off_time=1, fade_in_time=1, fade_out_time=1) # On for 1 second, off for 1 second, fade between print("Fancy") # Runs immediately --- /code ---
 
-**Tip:** `blink` and `pulse` will run until `off` is called or `blink` or `pulse` are called with new settings. Use `wait=True` and set `n` to blink or pulse a fixed number of times. 
+**Astuce :** `blink` et `pulse` fonctionneront jusqu'à ce que `off` soit appelé ou `blink` ou `pulse` soient appelés avec des nouveaux paramètres. Utilise `wait=True` et régle `n` pour clignoter ou pulser un nombre fixe de fois. 
