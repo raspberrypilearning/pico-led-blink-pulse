@@ -4,9 +4,9 @@ S'exécute immédiatement
 
 Fonctionne après 3 clignotements marche/arrêt
 
-take 1 second to brighten and 1 second to dim
+Prendre 1 seconde pour éclaircir et 1 seconde pour assombrir
 
-take 2 seconds to brighten and 1 second to dim
+Prendre 2 secondes pour éclaircir et 1 seconde pour atténuer
 
 Fonctionne après 4 impulsions
 
