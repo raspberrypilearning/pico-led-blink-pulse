@@ -1,13 +1,13 @@
-on for 1 second then off for one second
+1 seconde aan en dan 1 seconde uit
 
-Runs immediately
+Taak onmiddellijk uitvoeren
 
-Runs after 3 on/off blinks
+Voert taak uit na 3 keer aan/uit knipperen
 
-take 1 second to brighten and 1 second to dim
+neem 1 seconde om op te lichten en 1 seconde om te dimmen
 
-take 2 seconds to brighten and 1 second to dim
+neem 2 seconden om op te lichten en 1 seconde om te dimmen
 
-Runs after 4 pulses
+Voert taak out na 4 pulsen
 
-On for 1 second, off for 1 second, fade between
+1 seconde aan, 1 seconde uit, en er tussenin vervagen
