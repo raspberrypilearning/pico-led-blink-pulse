@@ -1,4 +1,4 @@
-Utilisez `blink` pour allumer et éteindre une LED.
+Utiliser `blink` pour allumer et éteindre une LED.
 
 Faire clignoter une LED :
 
